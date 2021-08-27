@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: ubuntu-medium;
+    src: url('assets/fonts/Ubuntu/Ubuntu-Medium.ttf');
+  }
+
+@font-face {
+    font-family: ubuntu-light;
+    src: url('assets/fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+
+
+body{
+    background-image: url('assets/img/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}

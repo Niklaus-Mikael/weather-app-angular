@@ -1,0 +1,56 @@
+.weather-container{
+    width: 50vw;
+    height: 75vh;
+    background-color:rgba(256,256,256, 0.6);
+    border-radius: 10px;
+    margin : 10vh auto;
+    padding: 20px;
+    
+}
+
+.weather-container h4{
+    font-family: ubuntu-light;
+    color:rgba(0,0,0, 0.7);
+    font-size: 24px;
+    text-align: center;
+    margin-top:10px;
+
+
+
+}
+
+.input{
+    
+    height: 30px;
+    border-radius: 10px;
+    border:1px solid #c5c5c5;
+    flex-basis: 50%;
+}
+
+.input:focus{
+outline: none;
+border:1.5px solid #7A758B;
+}
+
+input::placeholder{
+    font-family: ubuntu-light;
+    font-size: 1em;
+    padding:10px
+
+}
+
+.search-button{
+    background-color:#7A758B;
+    padding: 6px 32px;
+    border: none;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.form{
+    display: flex;
+    justify-content:center;
+    gap:2%;
+}
